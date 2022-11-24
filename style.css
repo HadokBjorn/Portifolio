@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+body {
+  font-family: "Abril Fatface", cursive;
+  background: linear-gradient(236.85deg, #7d326d 27.26%, #76a9c5 96.03%);
+}
+.container {
+  background: linear-gradient(236.85deg, #76a9c5 27.26%, #7d326d 96.03%);
+  color: #111111;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #111111;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.foto-perfil {
+  width: 300px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 00.25);
+}
+.titulo {
+  margin-left: 16px;
+  color: #111111;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #084d6e 27.49%, #696969 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 30px;
+}
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.itemDaLista {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 45px;
+}
+.itemDaLista a {
+  color: #111111;
+  text-decoration: none;
+}
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #499cfe;
+  border-radius: 20px;
+  border: 2px solid #111111;
+}
+.dark {
+  background: #373737;
+}
+.dark .container {
+  background: #111111;
+  color: white;
+}
+.dark .projetos {
+  color: #111111;
+}
+.dark .tema button {
+  background: #111111;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
